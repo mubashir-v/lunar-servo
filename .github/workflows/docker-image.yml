@@ -33,7 +33,7 @@ jobs:
               mosquitto_pub \
                 -h "$IOT_ENDPOINT" \
                 -p 8883 \
-                -t "esp32/update" \
+                -t "lidarfirmware/update" \
                 -m "https://raw.githubusercontent.com/mubashir-v/lunar-servo/main/.pio/build/esp32dev/firmware.bin" \
                 --cafile /tmp/ca.pem \
                 --cert /tmp/cert.pem \

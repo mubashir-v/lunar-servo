@@ -28,7 +28,7 @@ const int mqtt_port = 8883;
 // Project Specific Variables  and Const
 
 const char *mqtt_lidar_topic = "esp32/lidar/distance";
-const char *ota_topic = "esp32/update";
+const char *ota_topic = "lidarfirmware/update";
 const char *control_topic = "esp32/lidar/control";
 bool isReading = false;
 
